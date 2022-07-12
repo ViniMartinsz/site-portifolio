@@ -68,6 +68,13 @@ body {
 	color: #2a2a2a;
 	background-image: url(../images/fundo01.jpg);
 }
+.italia{
+	
+	background-image: url(../images/italy-162326_1280.png);
+
+
+
+}
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 0;
 	font-family: 'PT Sans', sans-serif;
@@ -218,6 +225,57 @@ div.title h2 {
 	-webkit-transform: scaleX(1);
 	transform: scaleX(1);
 }
+.btn-one2{
+
+	display: inline-block;
+	vertical-align: middle;
+	-webkit-transform: perspective(1px) translateZ(0);
+	transform: perspective(1px) translateZ(0);
+	box-shadow: 0 0 1px transparent;
+	background-color: #ffe3c4;
+	position: relative;
+	border: 2px solid #daa54a;
+	-webkit-transition-property: color;
+	transition-property: color ;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	padding: 8px 40px 10px;
+	color: #daa54a;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.btn-one2:before {
+	content: "";
+	position: absolute;
+	z-index: -1;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #daa54a;
+	border: 2px solid #0;
+	-webkit-transform: scaleX(0);
+	transform: scaleX(0);
+	-webkit-transform-origin: 50%;
+	transform-origin: 50%;
+	-webkit-transition-property: transform;
+	transition-property: transform;
+	-webkit-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+	-webkit-transition-timing-function: ease-out;
+	transition-timing-function: ease-out;
+
+}
+.btn-one2:hover, .btn-one2:focus, .btn-one2:active {
+	color: #ffe3c4;
+}
+.btn-one2:hover:before, .btn-one2:focus:before, .btn-one2:active:before {
+	-webkit-transform: scaleX(1);
+	transform: scaleX(1);
+}
+}
+
 /*
 ================================================
 3. Loader CSS
@@ -267,7 +325,7 @@ header {
 .navbar-default .navbar-collapse {
 	/* float: 0; */
 	/* margin: 104px -100px 0px; */
-	margin: 104px 150px 0px -290px;
+	margin: 104px 10px 0px -290px;
 	
 }
 .navbar {
@@ -1328,6 +1386,14 @@ header {
 */	
 .breadcrumb-wrapper {
 	background: rgba(0, 0, 0, 0) url("../images/imgaaem.jpg") no-repeat scroll 0 0 / 100%;
+	color: #ffffff;
+	float: left;
+	padding: 121px 0 124px;
+	width: 100%;
+	z-index: 2;
+}
+.breadcrumb-wrapper2 {
+	background: rgba(0, 0, 0, 0) url("../images/italy-516005_1920.jpg") no-repeat scroll 0 0 / 100%;
 	color: #ffffff;
 	float: left;
 	padding: 121px 0 124px;
