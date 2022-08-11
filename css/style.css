@@ -1071,9 +1071,11 @@ header {
 }
 .barrister-tell-us-about-wrapper .btn-one:before {
 	border-radius: 6px;
+	background: #000000;
+	
 }
 .barrister-tell-us-about-wrapper .btn-one {
-	background: #daa520;
+	background: #292929;
 	border-radius: 6px;
 	border: none;
 	padding: 10px 50px 12px;
